@@ -1,1 +1,1 @@
-rootProject.name = "xcode-theme"
+rootProject.name = "xcode-true-black"

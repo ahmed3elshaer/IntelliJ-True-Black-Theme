@@ -6,7 +6,7 @@ import com.intellij.openapi.extensions.PluginId;
 import java.util.Objects;
 
 public class XcTManager {
-    public final static String XC_PLUGIN_ID = "com.vermouthx.xcode-theme";
+    public final static String XC_PLUGIN_ID = "com.ahmed3elshaer.xcode-true-black";
 
     public static String currentVersion() {
         return Objects.requireNonNull(PluginManagerCore.getPlugin(PluginId.getId(XC_PLUGIN_ID))).getVersion();

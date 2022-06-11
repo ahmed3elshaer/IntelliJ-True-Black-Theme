@@ -1,31 +1,31 @@
 {
-  "name": "Xcode Dark",
+  "name": "Xcode Pure Black",
   "dark": true,
-  "author": "Zihan Ma",
-  "editorScheme": "/XcodeDark.xml",
+  "author": "Ahmed Elshaer",
+  "editorScheme": "/XcodeTrueBlack.xml",
   "colors": {
-    "primary": "#212327",
-    "secondary": "#343333",
-    "activeSelection": "#2f55b1",
-    "inactiveSelection": "#515b70",
-    "borderColor": "#121212"
+    "primary": "#000000",
+    "secondary": "#000000",
+    "activeSelection": "#5A5A5A",
+    "inactiveSelection": "#2A2A2A",
+    "borderColor": "#000000"
   },
   "ui": {
     "*": {
-      "arc": "8",
+      "arc": "10",
       "background": "primary",
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#474545"
+      "separatorColor": "#00000"
     },
     "ActionButton": {
-      "hoverBorderColor": "borderColor",
-      "hoverBackground": "borderColor",
-      "pressedBorderColor": "borderColor",
-      "pressedBackground": "borderColor"
+      "hoverBorderColor": "inactiveSelection",
+      "hoverBackground": "secondary",
+      "pressedBorderColor": "activeSelection",
+      "pressedBackground": "secondary"
     },
     "Bookmark": {
       "Mnemonic": {
@@ -47,21 +47,24 @@
       "foreground": "#ffffff",
       "startBackground": "secondary",
       "endBackground": "secondary",
-      "focusedBorderColor": "#5069c3",
-      "startBorderColor": "#464646",
-      "endBorderColor": "#464646",
+      "focusedBorderColor": "inactiveSelection",
+      "startBorderColor": "inactiveSelection",
+      "endBorderColor": "inactiveSelection",
       "default": {
         "foreground": "#ffffff",
-        "startBackground": "activeSelection",
-        "endBackground": "activeSelection",
-        "startBorderColor": "activeSelection",
-        "endBorderColor": "activeSelection",
-        "focusColor": "#5069c3",
-        "focusedBorderColor": "#5069c3"
+        "startBackground": "secondary",
+        "endBackground": "secondary",
+        "startBorderColor": "#FFFFFF",
+        "endBorderColor": "#FFFFFF",
+        "focusColor": "secondary",
+        "focusedBorderColor": "#FFFFFF"
       }
     },
     "Counter": {
       "foreground": "#ffffff"
+    },
+    "TextField": {
+      "background": "primary"
     },
     "ComboBox": {
       "nonEditableBackground": "secondary",
@@ -85,7 +88,7 @@
     "EditorTabs": {
       "underlinedTabBackground": "primary",
       "background": "secondary",
-      "underlineHeight": 2
+      "underlineHeight": 1
     },
     "Link": {
       "activeForeground": "#0c90f8",
@@ -103,8 +106,8 @@
       }
     },
     "Plugins": {
-      "hoverBackground": "#3c414c",
-      "lightSelectionBackground": "#3c414c"
+      "hoverBackground": "#2A2A2A",
+      "lightSelectionBackground": "#5A5A5A"
     },
     "PasswordField": {
       "background": "secondary"
@@ -131,23 +134,20 @@
     "TableHeader": {
       "bottomSeparatorColor": "separatorColor"
     },
-    "TextField": {
-      "background": "secondary"
-    },
     "ToggleButton": {
-      "onBackground": "#338f1b"
+      "onBackground": "#FFFFFF"
     },
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "#131313"
+        "selectedBackground": "secondary"
       },
       "Header": {
-        "background": "#3c3b3b",
+        "background": "primary",
         "inactiveBackground": "secondary"
       }
     },
     "Tree": {
-      "background": "#27282d"
+      "background": "primary"
     },
     "VersionControl": {
       "Log": {
