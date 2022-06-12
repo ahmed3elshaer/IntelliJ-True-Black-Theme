@@ -5,6 +5,8 @@ Xcode True Black</h1>
 </p>
 <p align="center"><img src="https://raw.githubusercontent.com/ahmed3elshaer/Xcode-True-Black/main/assets/screenshot.png" /></p>
 
+#### Font used in the screenshot -> Brown Mono Font : https://lineto.com/typewriter?font=tsZ4T6oz4Va
+
 ## Installation
 
 You can install this theme From release assets. 
