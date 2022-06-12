@@ -16,6 +16,8 @@ Pending Marketplace publication
 
 ![Color Palette](https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/color-palette.png)
 
+## This is a fork of existing theme https://github.com/WhiteVermouth/XcodeTheme
+
 ## Licence
 
 [Apache-2.0 Licence](https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/LICENSE)
