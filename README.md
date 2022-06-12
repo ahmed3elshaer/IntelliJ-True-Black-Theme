@@ -1,3 +1,9 @@
+<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+<script>
+  // Please, replace #yourelement with a real element id on your webpage
+  MarketplaceWidget.setupMarketplaceWidget('card', 19348, "#yourelement");
+</script>
+
 # True Black Theme
 
 <p align="center">
@@ -15,6 +21,12 @@ Yet I decided to eliminate all the clutter in the IDE and use a Pure #000000 and
 </p>
 
 ## Setup
+
+<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+<script>
+  // Please, replace #yourelement with a real element id on your webpage
+  MarketplaceWidget.setupMarketplaceWidget('install', 19348, "#yourelement");
+</script>
 
 ### Plugin marketplace (recommended) 🛒
 
