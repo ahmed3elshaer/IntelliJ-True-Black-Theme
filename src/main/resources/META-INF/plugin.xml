@@ -1,13 +1,13 @@
 <idea-plugin>
-    <id>com.vermouthx.xcode-theme</id>
-    <name>Xcode True Black</name>
+    <id>com.ahmed3elshaer.true-black-theme</id>
+    <name>True Black</name>
     <vendor email="ahmed3elshaer@gmail.com" url="https:/ahmed3elshaer.github.io">Ahmed Elshaer</vendor>
     <depends>com.intellij.modules.platform</depends>
     <idea-version since-build="211"/>
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.vermouthx.xcodetheme.settings.XcTMetaSetting"/>
-        <postStartupActivity implementation="com.vermouthx.xcodetheme.activities.XcTStartupActivity"/>
-        <notificationGroup displayType="STICKY_BALLOON" id="Xcode True Black" isLogByDefault="true"/>
-        <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/XcodeTrueBlack.theme.json"/>
+        <applicationService serviceImplementation="com.ahmed3elshaer.trueblack.settings.PluginMetaSettings"/>
+        <postStartupActivity implementation="com.ahmed3elshaer.trueblack.activities.StartupActivity"/>
+        <notificationGroup displayType="STICKY_BALLOON" id="True Black" isLogByDefault="true"/>
+        <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/TrueBlack.theme.json"/>
     </extensions>
 </idea-plugin>

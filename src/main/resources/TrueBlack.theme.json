@@ -1,8 +1,8 @@
 {
-  "name": "Xcode Pure Black",
+  "name": "True Black",
   "dark": true,
   "author": "Ahmed Elshaer",
-  "editorScheme": "/XcodeTrueBlack.xml",
+  "editorScheme": "/TrueBlack.xml",
   "colors": {
     "primary": "#000000",
     "secondary": "#000000",
