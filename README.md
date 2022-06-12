@@ -1,6 +1,6 @@
 <h1 align="center">
 Xcode True Black</h1>
-<p align="center">Xcode Pure Dark themes for JetBrains IDEs</p>
+<p align="center">Inteilij Pure Dark theme for JetBrains IDEs</p>
 <p align="center">
 </p>
 <p align="center"><img src="https://raw.githubusercontent.com/ahmed3elshaer/Xcode-True-Black/main/assets/screenshot.png" /></p>
