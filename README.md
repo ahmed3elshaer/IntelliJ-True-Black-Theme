@@ -1,14 +1,11 @@
-<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
-<script>
-  // Please, replace #yourelement with a real element id on your webpage
-  MarketplaceWidget.setupMarketplaceWidget('card', 19348, "#yourelement");
-</script>
 
 # True Black Theme
 
 <p align="center">
   <img src="assets/logo.svg"/>
 </p>
+
+
 
 A Pure Dark theme with the highest contrast ratio eyes has ever known.
 I have been struggling a lot with all the outdated IntelliJ UI components; looking at what is the industry offers, we
@@ -22,13 +19,7 @@ Yet I decided to eliminate all the clutter in the IDE and use a Pure #000000 and
 
 ## Setup
 
-<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
-<script>
-  // Please, replace #yourelement with a real element id on your webpage
-  MarketplaceWidget.setupMarketplaceWidget('install', 19348, "#yourelement");
-</script>
-
-### Plugin marketplace (recommended) 🛒
+### [Plugin marketplace (recommended) 🛒](https://plugins.jetbrains.com/plugin/19348-true-black)
 
 - Go to Preferences | Plugins | Marketplace and search for True Black theme
   Install the plugin
