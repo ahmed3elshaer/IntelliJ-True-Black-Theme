@@ -53,11 +53,11 @@ tasks {
 
         val description = """
             <div>
-              <p>Xcode Light &amp; Dark themes for JetBrains</p>
+              <p>True Black for JetBrains</p>
               <br />
               <p>
                 <img
-                  src="https://raw.githubusercontent.com/WhiteVermouth/XcodeTheme/master/assets/screenshot.png"
+                  src="https://raw.githubusercontent.com/ahmed3elshaer/Xcode-True-Black/main/assets/screenshot.png"
                   width="600"
                 />
               </p>
