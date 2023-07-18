@@ -1,4 +1,3 @@
-import org.jetbrains.changelog.closure
 import org.jetbrains.intellij.tasks.RunPluginVerifierTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
@@ -6,9 +5,9 @@ fun properties(key: String) = project.findProperty(key).toString()
 
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "1.4.0"
-    id("org.jetbrains.intellij") version "1.3.0"
-    id("org.jetbrains.changelog") version "1.1.2"
+    id("org.jetbrains.kotlin.jvm") version "1.8.20"
+    id("org.jetbrains.intellij") version "1.15.0"
+    id("org.jetbrains.changelog") version "2.1.2"
 }
 
 group = properties("pluginGroup")
@@ -26,22 +25,22 @@ intellij {
 }
 
 changelog {
-    version = properties("pluginVersion")
-    path = "${project.projectDir}/CHANGELOG.md"
-    header = closure { version }
-    itemPrefix = "-"
-    keepUnreleasedSection = false
-    groups = emptyList()
+    version.set(properties("platformVersion"))
+    path.set("${project.projectDir}/CHANGELOG.md")
+    header.set(version)
+    itemPrefix.set("-")
+    keepUnreleasedSection.set(false)
+    groups.set(emptyList())
 }
 
 tasks {
     withType<JavaCompile> {
-        sourceCompatibility = "11"
-        targetCompatibility = "11"
+        sourceCompatibility = "17"
+        targetCompatibility = "17"
     }
 
     withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = "11"
+        kotlinOptions.jvmTarget = "17"
     }
 
     buildSearchableOptions {
@@ -82,21 +81,21 @@ tasks {
 
     runPluginVerifier {
         ideVersions.set(
-            properties("pluginVerifierIdeVersions")
-                .split(",")
-                .map(String::trim)
-                .filter(String::isNotEmpty)
+                properties("pluginVerifierIdeVersions")
+                        .split(",")
+                        .map(String::trim)
+                        .filter(String::isNotEmpty)
         )
         failureLevel.set(
-            listOf(
-                RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS,
-                RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
-            )
+                listOf(
+                        RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS,
+                        RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
+                )
         )
     }
 
     publishPlugin {
         dependsOn("patchChangelog")
-        token.set(System.getProperty("jetbrains.token"))
+        token.set("perm:YWhtZWQzZWxzaGFlcg==.OTItODQxMA==.KEgQ9tMOMPJnxZ83tAtggX3n36SVVx")
     }
 }

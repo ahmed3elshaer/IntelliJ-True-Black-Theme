@@ -6,20 +6,20 @@
   "colors": {
     "primary": "#000000",
     "secondary": "#000000",
-    "activeSelection": "#5A5A5A",
+    "activeSelection": "#2A2A2A",
     "inactiveSelection": "#2A2A2A",
-    "borderColor": "#000000"
+    "borderColor": "#1c1c1c"
   },
   "ui": {
     "*": {
-      "arc": "10",
+      "arc": "8",
       "background": "primary",
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#00000"
+      "separatorColor": "#1c1c1c"
     },
     "ActionButton": {
       "hoverBorderColor": "inactiveSelection",

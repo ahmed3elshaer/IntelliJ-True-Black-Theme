@@ -3,7 +3,7 @@
     <name>True Black</name>
     <vendor email="ahmed3elshaer@gmail.com" url="https:/ahmed3elshaer.github.io">Ahmed Elshaer</vendor>
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="211"/>
+    <idea-version since-build="231"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.ahmed3elshaer.trueblack.settings.PluginMetaSettings"/>
         <postStartupActivity implementation="com.ahmed3elshaer.trueblack.activities.StartupActivity"/>

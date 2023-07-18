@@ -38,3 +38,5 @@ gradle-app.setting
 *.iml
 out
 gen
+local.properties
+*.hprof

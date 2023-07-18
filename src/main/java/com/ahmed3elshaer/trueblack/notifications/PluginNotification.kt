@@ -13,8 +13,8 @@ object PluginNotification {
     private val RELEASE_NOTE = "<div>" +
             "<h3>What's New?</h3>" +
             "<ul>" +
-            "<li>Support JetBrains 2022 EAP</li>" +
-            "<li>Fix Bookmark Mnemonic colors in Dark theme</li>" +
+            "<li>Support JetBrains 2023.1.3 and Later</li>" +
+            "<li>Adding new Purple variant based on True Black</li>" +
             "</ul>" +
             "<br>" +
             "<p><a href=\"https://github.com/ahmed3elshaer/Intelij-True-Black/blob/main/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/ahmed3elshaer/Intelij-True-Black\">Repository</a></p>" +
