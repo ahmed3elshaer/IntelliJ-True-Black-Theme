@@ -9,5 +9,6 @@
         <postStartupActivity implementation="com.ahmed3elshaer.trueblack.activities.StartupActivity"/>
         <notificationGroup displayType="STICKY_BALLOON" id="True Black" isLogByDefault="true"/>
         <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/TrueBlack.theme.json"/>
+        <themeProvider id="ae7a917c-04b2-4468-bdd7-6ddd4c43f879" path="/TrueDark.theme.json"/>
     </extensions>
 </idea-plugin>
