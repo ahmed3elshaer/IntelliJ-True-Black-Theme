@@ -14,7 +14,7 @@ object PluginNotification {
             "<h3>What's New?</h3>" +
             "<ul>" +
             "<li>Support JetBrains 2023.1.3 and Later</li>" +
-            "<li>Adding new Purple variant based on True Black</li>" +
+            "<li>Adding a new theme \"True Dark\"; a theme based on \"True Black\" with less contrasting black color.</li>" +
             "</ul>" +
             "<br>" +
             "<p><a href=\"https://github.com/ahmed3elshaer/Intelij-True-Black/blob/main/CHANGELOG.md\">Changelog</a> | <a href=\"https://github.com/ahmed3elshaer/Intelij-True-Black\">Repository</a></p>" +
