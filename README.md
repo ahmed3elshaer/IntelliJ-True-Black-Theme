@@ -2,7 +2,7 @@
 # True Black Theme
 
 <p align="center">
-  <img src="assets/logo.svg"/>
+  <img src="assets/logo.svg" wdith=100 height=100 />
 </p>
 
 
