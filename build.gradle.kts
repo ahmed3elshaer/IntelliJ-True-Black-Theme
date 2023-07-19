@@ -96,6 +96,5 @@ tasks {
 
     publishPlugin {
         dependsOn("patchChangelog")
-        token.set("perm:YWhtZWQzZWxzaGFlcg==.OTItODQxMA==.KEgQ9tMOMPJnxZ83tAtggX3n36SVVx")
     }
 }
