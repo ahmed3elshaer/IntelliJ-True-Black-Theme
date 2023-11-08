@@ -54,9 +54,6 @@ tasks {
 <div>
   <h2>True Black Theme</h2>
   <br />
-  <p>
-    <img src="https://raw.githubusercontent.com/ahmed3elshaer/IntelliJ-True-Black-Theme/main/assets/logo.svg" width="600" align="center" />
-  </p>
   <p> A Pure Dark theme with the highest contrast ratio eyes has ever known. I have been struggling a lot with all the outdated IntelliJ UI components; looking at what is the industry offers, we still tied to 10 years old Java UI. Additionally, we have themes that make it harder to make the IDE look nicer on High-Resolution displays. Yet I decided to eliminate all the clutter in the IDE and use a Pure #000000 and Pure #FFFFFF based theme. </p>
   <h2>Setup</h2>
   <h2>Plugin marketplace (recommended) 🛒</h2>
@@ -96,5 +93,6 @@ tasks {
 
     publishPlugin {
         dependsOn("patchChangelog")
+        token.set(properties("TRUE_DARK_THEME_PLUGIN_TOKEN"))
     }
 }

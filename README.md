@@ -1,5 +1,5 @@
 
-# True Black Theme
+# True Dark Theme
 
 <p align="center">
   <img src="assets/logo.svg" wdith=100 height=100 />

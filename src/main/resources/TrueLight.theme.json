@@ -1,14 +1,15 @@
 {
-  "name": "True Black",
-  "dark": true,
+  "name": "True Light",
+  "dark": false,
   "author": "Ahmed Elshaer",
-  "editorScheme": "/TrueBlack.xml",
+  "editorScheme": "/TrueLight.xml",
   "colors": {
-    "primary": "#000000",
-    "secondary": "#000000",
-    "activeSelection": "#2A2A2A",
-    "inactiveSelection": "#2A2A2A",
-    "borderColor": "#1c1c1c"
+    "primary": "#fdfdfd",
+    "secondary": "#fdfdfd",
+    "activeSelection": "#d2e2f8",
+    "inactiveSelection": "rgba(210,226,248,0.69)",
+    "borderColor": "#fdfdfd",
+    "foreground": "#1c1a1a"
   },
   "ui": {
     "*": {
@@ -16,10 +17,10 @@
       "background": "primary",
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
-      "disabledBackground": "primary",
+      "disabledBackground": "inactiveSelection",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#1c1c1c"
+      "separatorColor": "borderColor"
     },
     "ActionButton": {
       "hoverBorderColor": "inactiveSelection",
@@ -44,24 +45,24 @@
       "ContrastBorderColor": "borderColor"
     },
     "Button": {
-      "foreground": "#ffffff",
+      "foreground": "foreground",
       "startBackground": "secondary",
       "endBackground": "secondary",
       "focusedBorderColor": "inactiveSelection",
       "startBorderColor": "inactiveSelection",
       "endBorderColor": "inactiveSelection",
       "default": {
-        "foreground": "#ffffff",
+        "foreground": "foreground",
         "startBackground": "secondary",
         "endBackground": "secondary",
-        "startBorderColor": "#FFFFFF",
-        "endBorderColor": "#FFFFFF",
+        "startBorderColor": "foreground",
+        "endBorderColor": "foreground",
         "focusColor": "secondary",
-        "focusedBorderColor": "#FFFFFF"
+        "focusedBorderColor": "foreground"
       }
     },
     "Counter": {
-      "foreground": "#ffffff"
+      "foreground": "foreground"
     },
     "TextField": {
       "background": "primary"
@@ -86,7 +87,7 @@
       "background": "secondary"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "primary",
+      "underlinedTabBackground": "secondary",
       "background": "secondary",
       "underlineHeight": 2
     },
@@ -106,8 +107,8 @@
       }
     },
     "Plugins": {
-      "hoverBackground": "#2A2A2A",
-      "lightSelectionBackground": "#5A5A5A"
+      "hoverBackground": "#A2A2A2",
+      "lightSelectionBackground": "#838383"
     },
     "PasswordField": {
       "background": "secondary"
@@ -135,7 +136,7 @@
       "bottomSeparatorColor": "separatorColor"
     },
     "ToggleButton": {
-      "onBackground": "#FFFFFF"
+      "onBackground": "foreground"
     },
     "ToolWindow": {
       "Button": {

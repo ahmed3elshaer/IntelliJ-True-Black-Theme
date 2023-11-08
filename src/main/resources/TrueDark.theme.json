@@ -6,9 +6,9 @@
   "colors": {
     "primary": "#121517",
     "secondary": "#121517",
-    "activeSelection": "#191E21",
+    "activeSelection": "#323b3f",
     "inactiveSelection": "#191E21",
-    "borderColor": "#1c1c1c"
+    "borderColor": "#191e21"
   },
   "ui": {
     "*": {
@@ -86,9 +86,9 @@
       "background": "secondary"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "primary",
+      "underlinedTabBackground": "secondary",
       "background": "secondary",
-      "underlineHeight": 1
+      "underlineHeight": 2
     },
     "Link": {
       "activeForeground": "#0c90f8",

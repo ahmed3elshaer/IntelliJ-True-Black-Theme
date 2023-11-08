@@ -1,14 +1,15 @@
 <idea-plugin>
     <id>com.ahmed3elshaer.true-black-theme</id>
-    <name>True Black</name>
-    <vendor email="ahmed3elshaer@gmail.com" url="https:/ahmed3elshaer.github.io">Ahmed Elshaer</vendor>
+    <name>True Dark</name>
+    <vendor email="ahmed3elshaer@gmail.com" url="https:/github.com/Ahmed3Elshaer">Ahmed Elshaer</vendor>
     <depends>com.intellij.modules.platform</depends>
     <idea-version since-build="231"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.ahmed3elshaer.trueblack.settings.PluginMetaSettings"/>
         <postStartupActivity implementation="com.ahmed3elshaer.trueblack.activities.StartupActivity"/>
-        <notificationGroup displayType="STICKY_BALLOON" id="True Black" isLogByDefault="true"/>
+        <notificationGroup displayType="STICKY_BALLOON" id="True Dark," isLogByDefault="true"/>
         <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/TrueBlack.theme.json"/>
-        <themeProvider id="ae7a917c-04b2-4468-bdd7-6ddd4c43f879" path="/TrueDark.theme.json"/>
+        <themeProvider id="ae7a917c-04b2-4468-bdd8-6ddd4c43f879" path="/TrueDark.theme.json"/>
+        <themeProvider id="ae7a917c-04b2-4468-bdd9-6ddd4c43f879" path="/TrueLight.theme.json"/>
     </extensions>
 </idea-plugin>
