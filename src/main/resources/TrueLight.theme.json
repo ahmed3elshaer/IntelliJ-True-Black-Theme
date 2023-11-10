@@ -4,11 +4,11 @@
   "author": "Ahmed Elshaer",
   "editorScheme": "/TrueLight.xml",
   "colors": {
-    "primary": "#fdfdfd",
-    "secondary": "#fdfdfd",
-    "activeSelection": "#d2e2f8",
-    "inactiveSelection": "rgba(210,226,248,0.69)",
-    "borderColor": "#fdfdfd",
+    "primary": "#F2F4FE",
+    "secondary": "#F2F4FE",
+    "activeSelection": "#C1CEFB",
+    "inactiveSelection": "#D0D0D0",
+    "borderColor": "#DCE4FD",
     "foreground": "#1c1a1a"
   },
   "ui": {
