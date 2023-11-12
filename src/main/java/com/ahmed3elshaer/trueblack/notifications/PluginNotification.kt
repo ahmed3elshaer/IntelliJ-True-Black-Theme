@@ -1,3 +1,5 @@
+@file:Suppress("DialogTitleCapitalization")
+
 package com.ahmed3elshaer.trueblack.notifications
 
 import com.ahmed3elshaer.trueblack.PluginMetadata
@@ -31,10 +33,8 @@ object PluginNotification {
     private val NOTIFICATION_GROUP = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID)
     fun notifyReleaseNote(project: Project?) {
         val notification = NOTIFICATION_GROUP.createNotification(
-            "True Black Theme updated to v" + PluginMetadata.currentVersion(),
-            RELEASE_NOTE,
-            NotificationType.INFORMATION,
-            NotificationListener.URL_OPENING_LISTENER
+            "True Black Theme updated to v ${PluginMetadata.currentVersion()}  $RELEASE_NOTE",
+            NotificationType.IDE_UPDATE
         )
         notification.icon = icon
         notification.notify(project)
@@ -42,10 +42,8 @@ object PluginNotification {
 
     fun notifyWelcome(project: Project?) {
         val notification = NOTIFICATION_GROUP.createNotification(
-            "True Black Theme is installed",
-            WELCOME_MESSAGE,
+            "True Black Theme is installed $WELCOME_MESSAGE",
             NotificationType.INFORMATION,
-            NotificationListener.URL_OPENING_LISTENER
         )
         notification.icon = icon
         notification.notify(project)
