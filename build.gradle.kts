@@ -1,3 +1,4 @@
+import org.jetbrains.changelog.Changelog
 import org.jetbrains.intellij.tasks.RunPluginVerifierTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
@@ -73,7 +74,12 @@ tasks {
         """.trimIndent()
 
         pluginDescription.set(description)
-        changeNotes.set(provider { changelog.getLatest().toHTML() })
+        changeNotes.set(provider {
+            changelog.renderItem(
+                changelog.getLatest(),
+                Changelog.OutputType.HTML
+            )
+        })
     }
 
     runPluginVerifier {

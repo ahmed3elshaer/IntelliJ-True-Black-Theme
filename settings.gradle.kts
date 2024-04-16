@@ -1,1 +1,1 @@
-rootProject.name = "True Black"
+rootProject.name = "true-dark"
