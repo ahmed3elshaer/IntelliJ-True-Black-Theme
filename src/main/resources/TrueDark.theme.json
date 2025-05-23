@@ -9,7 +9,8 @@
     "activeSelection": "#2D2D2D",
     "inactiveSelection": "#1F1F1F",
     "borderColor": "#121212",
-    "separatorColor": "#1F1F1F"
+    "separatorColor": "#1F1F1F",
+    "accentColor": "#A78BFA"
   },
   "ui": {
     "*": {
@@ -18,14 +19,16 @@
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
       "disabledBackground": "primary",
-      "underlineColor": "activeSelection",
+      "underlineColor": "accentColor",
       "borderColor": "borderColor",
-      "separatorColor": "separatorColor"
+      "separatorColor": "separatorColor",
+      "focusColor": "accentColor",
+      "focusedBorderColor": "accentColor"
     },
     "ActionButton": {
-      "hoverBorderColor": "activeSelection",
+      "hoverBorderColor": "accentColor",
       "hoverBackground": "secondary",
-      "pressedBorderColor": "inactiveSelection",
+      "pressedBorderColor": "accentColor",
       "pressedBackground": "secondary"
     },
     "Bookmark": {
@@ -107,6 +110,20 @@
       "visitedForeground": "#0c90f8",
       "pressedForeground": "#9a61cb"
     },
+    "LoadingIndicator": {
+      "color": "#A78BFA",
+      "backgroundColor": "primary"
+    },
+    "Spinner": {
+      "background": "secondary",
+      "foreground": "#A78BFA",
+      "selectionForeground": "#C8A8E9"
+    },
+    "ProcessIndicator": {
+      "progressColor": "#A78BFA",
+      "indeterminateStartColor": "#9F7AEA",
+      "indeterminateEndColor": "#C8A8E9"
+    },
     "Notification": {
       "ToolWindow": {
         "informativeBackground": "primary",
@@ -122,6 +139,18 @@
     },
     "PasswordField": {
       "background": "secondary"
+    },
+    "ProgressBar": {
+      "background": "primary",
+      "foreground": "#A78BFA",
+      "selectionBackground": "#B794F6",
+      "selectionForeground": "#C8A8E9",
+      "indeterminateStartColor": "#9F7AEA",
+      "indeterminateEndColor": "#C8A8E9",
+      "progressColor": "#A78BFA",
+      "trackColor": "inactiveSelection",
+      "passedColor": "#B794F6",
+      "passedEndColor": "#C8A8E9"
     },
     "SearchMatch": {
       "startBackground": "#eeed38",
@@ -250,6 +279,25 @@
       "background": "secondary",
       "caretForeground": "#D1D1D1",
       "selectionBackground": "activeSelection"
+    },
+    "TaskProgressBar": {
+      "background": "primary",
+      "progressColor": "#A78BFA",
+      "indeterminateStartColor": "#9F7AEA",
+      "indeterminateEndColor": "#C8A8E9",
+      "passedColor": "#B794F6",
+      "trackColor": "inactiveSelection"
+    },
+    "InplaceRefactoringPopup": {
+      "background": "primary",
+      "borderColor": "borderColor"
+    },
+    "AsyncProcessIcon": {
+      "color": "#A78BFA"
+    },
+    "InternalFrameTitlePane": {
+      "background": "secondary",
+      "inactiveBackground": "primary"
     }
   },
   "icons": {
