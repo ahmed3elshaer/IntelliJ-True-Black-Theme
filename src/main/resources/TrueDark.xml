@@ -9,8 +9,8 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="2e913f" />
     <option name="BREADCRUMBS_BORDER_COLOR" value="121212" />
-    <option name="CARET_COLOR" value="ffffff" />
-    <option name="CARET_ROW_COLOR" value="1F1F1F" />
+    <option name="CARET_COLOR" value="D1D1D1" />
+    <option name="CARET_ROW_COLOR" value="161616" />
     <option name="DOCUMENTATION_COLOR" value="1F1F1F" />
     <option name="DOC_COMMENT_LINK" value="5482ff" />
     <option name="GUTTER_BACKGROUND" value="121212" />
@@ -26,6 +26,8 @@
     <option name="VISUAL_INDENT_GUIDE" value="" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="64583c" />
     <option name="CONSOLE_BACKGROUND_KEY" value="121212" />
+    <option name="EDITOR_LINE_HIGHLIGHT_STYLE" value="rounded" />
+    <option name="EDITOR_CURRENT_LINE_BORDER" value="2D2D2D" />
     <option name="FILESTATUS_ADDED" value="25ad6b" />
     <option name="FILESTATUS_COPIED" value="25ad6b" />
     <option name="FILESTATUS_DELETED" value="c63a5d" />
@@ -51,6 +53,8 @@
     <option name="FILESTATUS_addedOutside" value="25ad6b" />
     <option name="FILESTATUS_changelistConflict" value="af71e0" />
     <option name="FILESTATUS_modifiedOutside" value="4d85ff" />
+    <option name="FILESTATUS_TESTS" value="25ad6b" />
+    <option name="FILESTATUS_TEST" value="25ad6b" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -61,7 +65,7 @@
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="D1D1D1" />
         <option name="ERROR_STRIPE_COLOR" value="e07e7e" />
       </value>
     </option>
@@ -681,7 +685,7 @@
     <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="D1D1D1" />
         <option name="BACKGROUND" value="121212" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
