@@ -45,7 +45,6 @@ deserves!.
 - Use one of the awesome fonts in [here](https://github.com/ProgrammingFonts/ProgrammingFonts)!
 - Make Sure to hide all the non-essential Windows Tools, go to View | Appearance | Uncheck what's not important; for
   myself, I keep only (Status Bar, Toolbar), and Keyboard Shortcuts is enough.
-- [Atom Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons) is recommended.
 - Use a good IDE font to Preferences | Appearance & Behavior | Appearance | Check "Use custom font" | Select "Futura"
   for example.
 
@@ -57,12 +56,6 @@ deserves!.
 </p>
 - Cleans the clutter of the IDE and simplifies color usage to simple 3 degrees of black.
 - Beautiful Code color scheme based on Xcode using the awesome Xcode-theme plugin.
-
-## Color Palette 🎨
-
-<p align="center">
-  <img src="assets/code-color-scheme.png"  height="800" width="500"/>
-</p>
 
 ## Thanks 🙏🏻
 

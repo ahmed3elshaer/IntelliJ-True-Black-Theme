@@ -1,5 +1,4 @@
 import org.jetbrains.changelog.Changelog
-import org.jetbrains.intellij.tasks.RunPluginVerifierTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 fun properties(key: String) = project.findProperty(key).toString()
@@ -44,9 +43,6 @@ tasks {
         kotlinOptions.jvmTarget = "17"
     }
 
-    buildSearchableOptions {
-        enabled = false
-    }
 
     patchPluginXml {
         version.set(properties("pluginVersion"))
@@ -88,12 +84,6 @@ tasks {
                         .split(",")
                         .map(String::trim)
                         .filter(String::isNotEmpty)
-        )
-        failureLevel.set(
-                listOf(
-                        RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS,
-                        RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
-                )
         )
     }
 

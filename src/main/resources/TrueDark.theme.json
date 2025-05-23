@@ -4,27 +4,28 @@
   "author": "Ahmed Elshaer",
   "editorScheme": "/TrueDark.xml",
   "colors": {
-    "primary": "#121517",
-    "secondary": "#121517",
-    "activeSelection": "#323b3f",
-    "inactiveSelection": "#191E21",
-    "borderColor": "#191e21"
+    "primary": "#121212",
+    "secondary": "#121212",
+    "activeSelection": "#2D2D2D",
+    "inactiveSelection": "#1F1F1F",
+    "borderColor": "#121212",
+    "separatorColor": "#1F1F1F"
   },
   "ui": {
     "*": {
-      "arc": "8",
+      "arc": "2",
       "background": "primary",
       "selectionBackground": "activeSelection",
       "selectionInactiveBackground": "inactiveSelection",
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
-      "separatorColor": "#1c1c1c"
+      "separatorColor": "separatorColor"
     },
     "ActionButton": {
-      "hoverBorderColor": "inactiveSelection",
+      "hoverBorderColor": "activeSelection",
       "hoverBackground": "secondary",
-      "pressedBorderColor": "activeSelection",
+      "pressedBorderColor": "inactiveSelection",
       "pressedBackground": "secondary"
     },
     "Bookmark": {
@@ -86,7 +87,7 @@
       "background": "secondary"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "secondary",
+      "underlinedTabBackground": "primary",
       "background": "secondary",
       "underlineHeight": 2
     },
@@ -106,8 +107,8 @@
       }
     },
     "Plugins": {
-      "hoverBackground": "#2A2A2A",
-      "lightSelectionBackground": "#383838"
+      "hoverBackground": "activeSelection",
+      "lightSelectionBackground": "activeSelection"
     },
     "PasswordField": {
       "background": "secondary"
@@ -147,7 +148,10 @@
       }
     },
     "Tree": {
-      "background": "primary"
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection",
+      "foreground": "#FFFFFF"
     },
     "VersionControl": {
       "Log": {
@@ -167,6 +171,19 @@
           "background": "inactiveSelection"
         }
       }
+    },
+    "FileColor": {
+      "Yellow": "",
+      "Green": "",
+      "Blue": "",
+      "Violet": "",
+      "Orange": "",
+      "Rose": ""
+    },
+    "ProjectView": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection"
     }
   },
   "icons": {

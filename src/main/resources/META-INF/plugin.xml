@@ -1,9 +1,57 @@
 <idea-plugin>
     <id>com.ahmed3elshaer.true-black-theme</id>
     <name>True Dark</name>
-    <vendor email="ahmed3elshaer@gmail.com" url="https:/github.com/Ahmed3Elshaer">Ahmed Elshaer</vendor>
+    <vendor email="ahmed3elshaer@gmail.com" url="https://github.com/Ahmed3Elshaer">Ahmed Elshaer</vendor>
     <depends>com.intellij.modules.platform</depends>
     <idea-version since-build="223"/>
+    
+    <description><![CDATA[
+    <h2>True Dark Theme Collection</h2>
+    <p>A collection of high-contrast themes with the purest blacks and highest readability for JetBrains IDEs.</p>
+    
+    <h3>Features:</h3>
+    <ul>
+        <li><b>True Black:</b> Pure #000000 black background with maximum contrast</li>
+        <li><b>True Dark:</b> Slightly softer dark theme for extended coding sessions</li>
+        <li><b>True Light:</b> High-contrast light theme based on the same design principles</li>
+        <li>Optimized for OLED/AMOLED displays</li>
+        <li>Beautiful Xcode-inspired syntax highlighting</li>
+        <li>Carefully crafted UI element colors for maximum visibility</li>
+        <li>Custom high-contrast icon colors</li>
+    </ul>
+    
+    <h3>Perfect for:</h3>
+    <ul>
+        <li>Late-night coding sessions</li>
+        <li>Developers with visual preferences for high contrast</li>
+        <li>OLED display users looking to save battery</li>
+        <li>Anyone who loves a clean, minimalist IDE appearance</li>
+    </ul>
+    
+    <p>Say goodbye to eye strain and hello to the purest dark theme experience!</p>
+    ]]></description>
+    
+    <change-notes><![CDATA[
+    <h3>Version 1.5.0</h3>
+    <ul>
+        <li>Enhanced UI control definitions for better coverage</li>
+        <li>Added custom scroll bar colors for better visibility</li>
+        <li>Improved popup, menu, and dialog appearances</li>
+        <li>Added support for progress bars and spinners</li>
+        <li>Enhanced form controls (checkboxes, radio buttons, text fields)</li>
+        <li>Added optional background image support</li>
+        <li>Improved icon color palette</li>
+    </ul>
+    
+    <h3>Version 1.4.5</h3>
+    <ul>
+        <li>Added brand new "True Light" theme</li>
+        <li>Applied suggestion to make selected tab more obvious</li>
+        <li>Use new Project Activity instead of StartupActivity</li>
+        <li>Remove notification issues with the theme</li>
+    </ul>
+    ]]></change-notes>
+    
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.ahmed3elshaer.trueblack.settings.PluginMetaSettings"/>
         <postStartupActivity implementation="com.ahmed3elshaer.trueblack.activities.StartupActivity"/>

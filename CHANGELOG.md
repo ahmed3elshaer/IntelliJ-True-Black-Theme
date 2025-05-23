@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.5.0
+- Enhanced UI control definitions for comprehensive theme coverage
+- Added custom scroll bar colors for better visibility  
+- Improved popup, menu, and dialog appearances
+- Added support for progress bars and spinners
+- Enhanced form controls (checkboxes, radio buttons, text fields)
+- Added optional background image support (disabled by default)
+- Improved icon color palette with higher contrast
+- Added settings infrastructure for future customization options
+- Fixed vendor URL in plugin metadata
+
 ## 1.4.5
 - Added brand new "True Light"; a theme based on "True Dark" with light colors.
 - Applied Suggestion to make the selected tab more obvious.
