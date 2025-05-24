@@ -32,8 +32,6 @@
       "pressedBackground": "secondary"
     },
     "Bookmark": {
-      "Mnemonic": {
-      }
     },
     "BookmarkMnemonicAssigned": {
       "background": "inactiveSelection",
@@ -357,32 +355,6 @@
       "selectionBackground": "accentColor",
       "selectionForeground": "#FFFFFF",
       "hoverBackground": "inactiveSelection"
-    }
-  },
-  "icons": {
-    "ColorPalette": {
-      "Actions.Red": "#c63a5d",
-      "Actions.Yellow": "#caba2d",
-      "Actions.Green": "#25ad6b",
-      "Actions.Blue": "#4d85ff",
-      "Objects.RedStatus": "#dd3962",
-      "Objects.Red": "#c63a5d",
-      "Objects.Pink": "#f98b9e",
-      "Objects.Yellow": "#caba2d",
-      "Objects.Green": "#239e62",
-      "Objects.Blue": "#598bff",
-      "Objects.Purple": "#af71e0",
-      "Objects.BlackText": "#000000ff",
-      "Objects.YellowDark": "#988c26",
-      "Objects.GreenAndroid": "#78c257",
-      "Checkbox.Border.Default": "#121212",
-      "Checkbox.Border.Default.Dark": "#121212",
-      "Checkbox.Background.Default": "#343333",
-      "Checkbox.Background.Default.Dark": "#343333",
-      "Checkbox.Background.Disabled": "#212327",
-      "Checkbox.Background.Disabled.Dark": "#212327",
-      "Checkbox.Focus.Wide": "#2f55b1",
-      "Checkbox.Focus.Wide.Dark": "#2f55b1"
     }
   }
 }

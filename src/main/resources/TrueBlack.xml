@@ -794,5 +794,35 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="ScrollBar.Mac.thumbColor">
+      <value>
+        <option name="FOREGROUND" value="2A2A2A" />
+      </value>
+    </option>
+    <option name="ScrollBar.Mac.thumbBorderColor">
+      <value>
+        <option name="FOREGROUND" value="2A2A2A" />
+      </value>
+    </option>
+    <option name="ScrollBar.Mac.hoverThumbColor">
+      <value>
+        <option name="FOREGROUND" value="3A3A3A" />
+      </value>
+    </option>
+    <option name="ScrollBar.Mac.hoverThumbBorderColor">
+      <value>
+        <option name="FOREGROUND" value="3A3A3A" />
+      </value>
+    </option>
+    <option name="ScrollBar.Mac.Transparent.thumbColor">
+      <value>
+        <option name="FOREGROUND" value="2A2A2A" />
+      </value>
+    </option>
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor">
+      <value>
+        <option name="FOREGROUND" value="3A3A3A" />
+      </value>
+    </option>
   </attributes>
 </scheme>

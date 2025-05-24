@@ -6,8 +6,8 @@
   "colors": {
     "primary": "#000000",
     "secondary": "#000000",
-    "activeSelection": "#2A2A2A",
-    "inactiveSelection": "#2A2A2A",
+    "activeSelection": "#505050",
+    "inactiveSelection": "#353535",
     "borderColor": "#1c1c1c"
   },
   "ui": {
@@ -28,8 +28,6 @@
       "pressedBackground": "secondary"
     },
     "Bookmark": {
-      "Mnemonic": {
-      }
     },
     "BookmarkMnemonicAssigned": {
       "background": "inactiveSelection",
@@ -106,8 +104,8 @@
       }
     },
     "Plugins": {
-      "hoverBackground": "#2A2A2A",
-      "lightSelectionBackground": "#5A5A5A"
+      "hoverBackground": "#353535",
+      "lightSelectionBackground": "#505050"
     },
     "PasswordField": {
       "background": "secondary"
@@ -167,32 +165,70 @@
           "background": "inactiveSelection"
         }
       }
-    }
-  },
-  "icons": {
-    "ColorPalette": {
-      "Actions.Red": "#c63a5d",
-      "Actions.Yellow": "#caba2d",
-      "Actions.Green": "#25ad6b",
-      "Actions.Blue": "#4d85ff",
-      "Objects.RedStatus": "#dd3962",
-      "Objects.Red": "#c63a5d",
-      "Objects.Pink": "#f98b9e",
-      "Objects.Yellow": "#caba2d",
-      "Objects.Green": "#239e62",
-      "Objects.Blue": "#598bff",
-      "Objects.Purple": "#af71e0",
-      "Objects.BlackText": "#000000ff",
-      "Objects.YellowDark": "#988c26",
-      "Objects.GreenAndroid": "#78c257",
-      "Checkbox.Border.Default": "#121212",
-      "Checkbox.Border.Default.Dark": "#121212",
-      "Checkbox.Background.Default": "#343333",
-      "Checkbox.Background.Default.Dark": "#343333",
-      "Checkbox.Background.Disabled": "#212327",
-      "Checkbox.Background.Disabled.Dark": "#212327",
-      "Checkbox.Focus.Wide": "#2f55b1",
-      "Checkbox.Focus.Wide.Dark": "#2f55b1"
+    },
+    "Popup": {
+      "background": "primary",
+      "Header.activeBackground": "activeSelection",
+      "Header.inactiveBackground": "inactiveSelection",
+      "separatorColor": "borderColor",
+      "Advertiser": {
+        "background": "inactiveSelection",
+        "borderColor": "borderColor"
+      }
+    },
+    "ScrollBar": {
+      "background": "primary",
+      "thumbColor": "#353535",
+      "thumbBorderColor": "#353535",
+      "hoverThumbColor": "#505050",
+      "hoverThumbBorderColor": "#505050",
+      "Mac.thumbColor": "#353535",
+      "Mac.thumbBorderColor": "#353535"
+    },
+    "ProgressBar": {
+      "trackColor": "inactiveSelection",
+      "progressColor": "#FFFFFF",
+      "indeterminateStartColor": "#FFFFFF",
+      "indeterminateEndColor": "#353535"
+    },
+    "Menu": {
+      "background": "primary",
+      "foreground": "#FFFFFF",
+      "separatorColor": "borderColor",
+      "borderColor": "borderColor",
+      "selectionBackground": "activeSelection"
+    },
+    "MenuItem": {
+      "selectionBackground": "activeSelection",
+      "acceleratorForeground": "#777777"
+    },
+    "CheckBox": {
+      "background": "primary",
+      "foreground": "#FFFFFF",
+      "select": "#FFFFFF"
+    },
+    "RadioButton": {
+      "background": "primary", 
+      "foreground": "#FFFFFF",
+      "select": "#FFFFFF"
+    },
+    "FormattedTextField": {
+      "background": "secondary",
+      "caretForeground": "#FFFFFF"
+    },
+    "TextArea": {
+      "background": "secondary",
+      "caretForeground": "#FFFFFF",
+      "selectionBackground": "activeSelection"
+    },
+    "TextPane": {
+      "background": "secondary",
+      "caretForeground": "#FFFFFF",
+      "selectionBackground": "activeSelection"
+    },
+    "Spinner": {
+      "background": "secondary",
+      "buttonBackground": "secondary"
     }
   }
 }
