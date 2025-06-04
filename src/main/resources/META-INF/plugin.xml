@@ -142,5 +142,21 @@
         <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/TrueBlack.theme.json"/>
         <themeProvider id="ae7a917c-04b2-4468-bdd8-6ddd4c43f879" path="/TrueDark.theme.json"/>
         <themeProvider id="ae7a917c-04b2-4468-bdd9-6ddd4c43f879" path="/TrueLight.theme.json"/>
+        <themeProvider id="c6a3caa7-7764-461a-9195-c4c9f3041c61" path="/TrueDarkCool.theme.json"/>
+        <themeProvider id="848a051c-6e91-443d-a5a9-b6acd5525017" path="/TrueDarkWarm.theme.json"/>
+        <themeProvider id="5b5913b9-738d-4de0-b46b-19867b508bc9" path="/TrueDarkSeasonal.theme.json"/>
+        <themeProvider id="36b36e33-6a8d-4d77-9cc5-42a31bb59fa9" path="/TrueDarkSpace.theme.json"/>
+        <themeProvider id="d334a05b-f0ba-487b-a8d4-205173f10bb4" path="/TrueDarkForest.theme.json"/>
+        <themeProvider id="21ada071-4768-47d1-b34a-771f75c99fe0" path="/TrueDarkDunes.theme.json"/>
+        <themeProvider id="60c5df6d-b314-47c6-a34c-7860ccb859b3" path="/TrueDarkRuby.theme.json"/>
+        <themeProvider id="e2508d5b-bfd5-4045-b234-e47221174297" path="/TrueDarkPremium.theme.json"/>
+        <themeProvider id="2fe2d7b2-e874-4469-84c7-5911d912e292" path="/TrueBlackCool.theme.json"/>
+        <themeProvider id="25fa2336-10ec-448b-91ce-d3bdce28b5cb" path="/TrueBlackWarm.theme.json"/>
+        <themeProvider id="22b132b5-c224-4106-ba23-b31465075d99" path="/TrueBlackSeasonal.theme.json"/>
+        <themeProvider id="ce1adf4a-6d9f-40d5-87c7-e0f14b383b67" path="/TrueBlackSpace.theme.json"/>
+        <themeProvider id="41461d3f-2d4f-4275-a9ac-94b69db8d826" path="/TrueBlackForest.theme.json"/>
+        <themeProvider id="e3695d26-3511-47b8-955f-f370b574f4f2" path="/TrueBlackDunes.theme.json"/>
+        <themeProvider id="0bbbf433-72fb-4374-8b63-958f4ba22fae" path="/TrueBlackRuby.theme.json"/>
+        <themeProvider id="853e0ea9-6588-4e50-84e0-d5549b8540c5" path="/TrueBlackPremium.theme.json"/>
     </extensions>
 </idea-plugin>
