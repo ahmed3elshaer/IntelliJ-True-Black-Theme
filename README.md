@@ -82,6 +82,24 @@ Originally a pure black and white theme, True Dark has evolved into an elegant d
 - **Borders**: `#1E1E1E` (Subtle definition)
 - **Code Colors**: Pastel purples, blues, and greens for semantic grouping
 
+## 🌌 Premium Theme Variants
+
+The premium collection builds on True Dark and True Black foundations with unique accent palettes:
+
+- **True Dark Cool** / **True Black Cool**
+- **True Dark Warm** / **True Black Warm**
+- **True Dark Seasonal** / **True Black Seasonal**
+- **True Dark Space** / **True Black Space**
+- **True Dark Forest** / **True Black Forest**
+- **True Dark Dunes** / **True Black Dunes**
+- **True Dark Ruby** / **True Black Ruby**
+- **True Dark Premium** / **True Black Premium**
+
+- Each premium variant also includes its own editor color scheme so the accent
+  palette carries through to code highlighting. Keywords, numbers and comments
+  are all tinted to match each variant.
+
+
 ## Tips 🌟
 
 - **Use a modern font** like [JetBrains Mono](https://www.jetbrains.com/lp/mono/) or [Fira Code](https://github.com/tonsky/FiraCode)
