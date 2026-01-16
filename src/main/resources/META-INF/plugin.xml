@@ -142,5 +142,8 @@
         <themeProvider id="ae7a917c-04b2-4468-bab7-6ddd4c43f879" path="/TrueBlack.theme.json"/>
         <themeProvider id="ae7a917c-04b2-4468-bdd8-6ddd4c43f879" path="/TrueDark.theme.json"/>
         <themeProvider id="ae7a917c-04b2-4468-bdd9-6ddd4c43f879" path="/TrueLight.theme.json"/>
+        <themeProvider id="ae7a917c-04b2-4468-bdd0-6ddd4c43f879" path="/TrueIslandBlack.theme.json"/>
+        <themeProvider id="ae7a917c-04b2-4468-bdd0-6ddd4c43f879" path="/TrueIslandDark.theme.json"/>
+        <themeProvider id="ae7a917c-04b2-4468-bdd0-6ddd4c43f879" path="/TrueIslandLight.theme.json"/>
     </extensions>
 </idea-plugin>

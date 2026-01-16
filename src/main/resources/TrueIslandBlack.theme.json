@@ -1,5 +1,5 @@
 {
-  "name": "True Black",
+  "name": "True Island Black",
   "dark": true,
   "author": "Ahmed Elshaer",
   "editorScheme": "/TrueBlack.xml",
@@ -8,7 +8,8 @@
     "secondary": "#000000",
     "activeSelection": "#505050",
     "inactiveSelection": "#353535",
-    "borderColor": "#1c1c1c"
+    "borderColor": "#1c1c1c",
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -20,6 +21,10 @@
       "underlineColor": "activeSelection",
       "borderColor": "borderColor",
       "separatorColor": "borderColor"
+    },
+    "Islands": "1",
+    "Island": {
+      "borderColor": "borderColor"
     },
     "ActionButton": {
       "hoverBorderColor": "inactiveSelection",
@@ -123,6 +128,7 @@
       "background": "secondary"
     },
     "StatusBar": {
+      "borderColor": "transparent",
       "hoverBackground": "secondary"
     },
     "Table": {
@@ -136,13 +142,23 @@
       "onBackground": "#FFFFFF"
     },
     "ToolWindow": {
+      "borderColor": "transparent",
       "Button": {
         "selectedBackground": "secondary"
       },
       "Header": {
         "background": "primary",
         "inactiveBackground": "secondary"
+      },
+      "Stripe": {
+        "borderColor": "transparent"
       }
+    },
+    "MainWindow": {
+      "background": "primary"
+    },
+    "MainToolbar": {
+      "borderColor": "transparent"
     },
     "Tree": {
       "background": "primary"
@@ -208,7 +224,7 @@
       "select": "#FFFFFF"
     },
     "RadioButton": {
-      "background": "primary", 
+      "background": "primary",
       "foreground": "#FFFFFF",
       "select": "#FFFFFF"
     },
