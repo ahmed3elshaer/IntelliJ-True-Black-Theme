@@ -3,185 +3,26 @@
   "dark": false,
   "author": "Ahmed Elshaer",
   "editorScheme": "/TrueLight.xml",
+  "parentTheme": "ae7a917c-04b2-4468-bdd9-6ddd4c43f879",
   "colors": {
-    "primary": "#F2F4FE",
-    "secondary": "#F2F4FE",
-    "activeSelection": "#C1CEFB",
-    "inactiveSelection": "#D0D0D0",
-    "borderColor": "#DCE4FD",
-    "foreground": "#1c1a1a",
     "transparent": "#00000000"
   },
   "ui": {
-    "*": {
-      "arc": "8",
-      "background": "primary",
-      "selectionBackground": "activeSelection",
-      "selectionInactiveBackground": "inactiveSelection",
-      "disabledBackground": "inactiveSelection",
-      "underlineColor": "activeSelection",
-      "borderColor": "borderColor",
-      "separatorColor": "borderColor"
-    },
-    "ActionButton": {
-      "hoverBorderColor": "inactiveSelection",
-      "hoverBackground": "secondary",
-      "pressedBorderColor": "activeSelection",
-      "pressedBackground": "secondary"
-    },
     "Islands": "1",
     "Island": {
       "borderColor": "borderColor"
     },
-    "Bookmark": {
-    },
-    "BookmarkMnemonicAssigned": {
-      "background": "inactiveSelection",
-      "borderColor": "inactiveSelection"
-    },
-    "BookmarkMnemonicCurrent": {
-      "background": "activeSelection",
-      "borderColor": "activeSelection"
-    },
-    "Borders": {
-      "color": "borderColor",
-      "ContrastBorderColor": "borderColor"
-    },
-    "Button": {
-      "foreground": "foreground",
-      "startBackground": "secondary",
-      "endBackground": "secondary",
-      "focusedBorderColor": "inactiveSelection",
-      "startBorderColor": "inactiveSelection",
-      "endBorderColor": "inactiveSelection",
-      "default": {
-        "foreground": "foreground",
-        "startBackground": "secondary",
-        "endBackground": "secondary",
-        "startBorderColor": "foreground",
-        "endBorderColor": "foreground",
-        "focusColor": "secondary",
-        "focusedBorderColor": "foreground"
-      }
-    },
-    "Counter": {
-      "foreground": "foreground"
-    },
-    "TextField": {
-      "background": "primary"
-    },
-    "ComboBox": {
-      "nonEditableBackground": "secondary",
-      "ArrowButton": {
-        "background": "secondary",
-        "nonEditableBackground": "secondary"
-      }
-    },
-    "CompletionPopup": {
-      "matchForeground": "#fc5fa3"
-    },
-    "Component": {
-      "focusColor": "activeSelection",
-      "focusedBorderColor": "activeSelection",
-      "disabledBorderColor": "borderColor"
-    },
-    "Editor": {
-      "shortcutForeground": "activeSelection",
-      "background": "secondary"
-    },
-    "EditorTabs": {
-      "underlinedTabBackground": "secondary",
-      "background": "secondary",
-      "underlineHeight": 2
-    },
-    "Link": {
-      "activeForeground": "#0c90f8",
-      "hoverForeground": "#9a61cb",
-      "visitedForeground": "#0c90f8",
-      "pressedForeground": "#9a61cb"
-    },
-    "Notification": {
-      "ToolWindow": {
-        "informativeBackground": "primary",
-        "informativeBorderColor": "#42b827",
-        "informativeForeground": "#ffffff",
-        "warningBackground": "primary",
-        "errorBackground": "primary"
-      }
-    },
-    "Plugins": {
-      "hoverBackground": "#A2A2A2",
-      "lightSelectionBackground": "#838383"
-    },
-    "PasswordField": {
-      "background": "secondary"
-    },
-    "SearchMatch": {
-      "startBackground": "#eeed38",
-      "endBackground": "#eeed38"
-    },
-    "SearchEverywhere": {
-      "Tab": {
-        "selectedBackground": "inactiveSelection"
-      }
-    },
-    "SidePanel": {
-      "background": "secondary"
-    },
     "StatusBar": {
-      "borderColor": "transparent",
-      "hoverBackground": "secondary"
-    },
-    "Table": {
-      "hoverBackground": "inactiveSelection",
-      "lightSelectionBackground": "activeSelection"
-    },
-    "TableHeader": {
-      "bottomSeparatorColor": "separatorColor"
-    },
-    "ToggleButton": {
-      "onBackground": "foreground"
+      "borderColor": "transparent"
     },
     "ToolWindow": {
       "borderColor": "transparent",
-      "Button": {
-        "selectedBackground": "secondary"
-      },
-      "Header": {
-        "background": "primary",
-        "inactiveBackground": "secondary"
-      },
       "Stripe": {
         "borderColor": "transparent"
       }
     },
-    "MainWindow": {
-      "background": "primary"
-    },
     "MainToolbar": {
       "borderColor": "transparent"
-    },
-    "Tree": {
-      "background": "primary"
-    },
-    "VersionControl": {
-      "Log": {
-        "Commit": {
-          "currentBranchBackground": "secondary",
-          "hoveredBackground": "inactiveSelection"
-        }
-      }
-    },
-    "WelcomeScreen": {
-      "SidePanel": {
-        "background": "secondary"
-      },
-      "Projects": {
-        "background": "inactiveSelection",
-        "actions": {
-          "background": "inactiveSelection"
-        }
-      }
     }
   }
 }
