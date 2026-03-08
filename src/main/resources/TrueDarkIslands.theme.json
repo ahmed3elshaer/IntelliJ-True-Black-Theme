@@ -1,8 +1,9 @@
 {
-  "name": "True Dark",
+  "name": "True Dark Islands",
   "dark": true,
   "author": "Ahmed Elshaer",
-  "editorScheme": "/TrueDark.xml",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "/TrueDarkIslands.xml",
   "colors": {
     "primary": "#121212",
     "secondary": "#121212",
@@ -82,7 +83,7 @@
       }
     },
     "CompletionPopup": {
-      "matchForeground": "#ff7ab2",
+      "matchForeground": "#fc5fa3",
       "selectionBackground": "activeSelection",
       "background": "primary",
       "borderColor": "borderColor"
@@ -284,7 +285,7 @@
       "select": "#D1D1D1"
     },
     "RadioButton": {
-      "background": "primary", 
+      "background": "primary",
       "foreground": "#D1D1D1",
       "select": "#D1D1D1"
     },
@@ -355,6 +356,75 @@
       "selectionBackground": "accentColor",
       "selectionForeground": "#FFFFFF",
       "hoverBackground": "inactiveSelection"
+    },
+    "MainToolbar": {
+      "background": "#121212",
+      "separatorColor": "#1E1E1E",
+      "Dropdown.hoverBackground": "#1F1F1F",
+      "Dropdown.pressedBackground": "#2D2D2D",
+      "Icon.hoverBackground": "#1F1F1F",
+      "Icon.pressedBackground": "#2D2D2D"
+    },
+    "ToolbarComboWidget": {
+      "hoverBackground": "#1F1F1F",
+      "pressedBackground": "#2D2D2D"
+    },
+    "RunWidget": {
+      "background": "#0D5D2C",
+      "foreground": "#FFFFFF",
+      "runningBackground": "#0D3A5E",
+      "stopBackground": "#5D0D0D"
+    },
+    "SegmentedButton": {
+      "selectedButtonColor": "#1F1F1F",
+      "focusedSelectedButtonColor": "#2D2D2D"
+    },
+    "GotItTooltip": {
+      "background": "#1E1E1E",
+      "borderColor": "#353535",
+      "foreground": "#dfdfe0",
+      "linkForeground": "#6699ff",
+      "Button.foreground": "#FFFFFF",
+      "Button.startBackground": "#353535",
+      "Button.endBackground": "#353535",
+      "Button.startBorderColor": "#505050",
+      "Button.endBorderColor": "#505050"
+    },
+    "Banner": {
+      "warningBackground": "#4F3520",
+      "warningBorderColor": "#785833",
+      "infoBackground": "#2C2540",
+      "infoBorderColor": "#3C3A5C",
+      "errorBackground": "#4F1520",
+      "errorBorderColor": "#783333",
+      "successBackground": "#2C3520",
+      "successBorderColor": "#3C5533"
+    },
+    "HelpTooltip": {
+      "background": "#1E1E1E",
+      "borderColor": "#353535",
+      "foreground": "#dfdfe0",
+      "shortcutForeground": "#8c9eff",
+      "infoForeground": "#7f8c98"
+    },
+    "ToolWindow.HeaderTab": {
+      "selectedInactiveBackground": "#1E1E1E",
+      "hoverBackground": "#1F1F1F",
+      "underlineColor": "#dfdfe0"
+    },
+    "MainWindow.Tab": {
+      "background": "#121212",
+      "hoverBackground": "#1F1F1F",
+      "hoverInactiveBackground": "#1E1E1E"
+    },
+    "DragAndDrop": {
+      "borderColor": "#6699ff",
+      "areaBackground": "#1A2540",
+      "Row.background": "#2A3A5C"
+    },
+    "StatusBar.Widget": {
+      "hoverBackground": "#1F1F1F",
+      "pressedBackground": "#2D2D2D"
     }
   }
 }
