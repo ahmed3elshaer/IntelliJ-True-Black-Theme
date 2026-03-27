@@ -131,7 +131,8 @@
       "background": "secondary"
     },
     "StatusBar": {
-      "hoverBackground": "secondary"
+      "hoverBackground": "secondary",
+      "borderColor": "#00000000"
     },
     "Table": {
       "hoverBackground": "inactiveSelection",
@@ -263,6 +264,7 @@
     },
     "MainToolbar": {
       "background": "#000000",
+      "borderColor": "#00000000",
       "separatorColor": "#1c1c1c",
       "Dropdown.hoverBackground": "#2A2A2A",
       "Dropdown.pressedBackground": "#353535",
@@ -288,6 +290,9 @@
       "borderColor": "#353535",
       "foreground": "#dfdfe0",
       "linkForeground": "#6699ff",
+      "codeBackground": "#2A2A2A",
+      "shortcutBackground": "#2A2A2A",
+      "shortcutBorderColor": "#505050",
       "Button.foreground": "#FFFFFF",
       "Button.startBackground": "#353535",
       "Button.endBackground": "#353535",
