@@ -216,9 +216,21 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "accentColor",
-          "hoveredBackground": "inactiveSelection"
+          "currentBranchBackground": "#1A1A1A",
+          "hoveredBackground": "inactiveSelection",
+          "selectedBackground": "activeSelection"
         }
+      },
+      "GitLog": {
+        "headIconColor": "#D1D1D1",
+        "localBranchIconColor": "#8B5CF6",
+        "remoteBranchIconColor": "#7C3AED",
+        "tagIconColor": "#A78BFA",
+        "otherIconColor": "#6D6D6D"
+      },
+      "RefLabel": {
+        "backgroundBase": "#1F1F1F",
+        "foreground": "#D1D1D1"
       }
     },
     "WelcomeScreen": {

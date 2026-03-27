@@ -151,8 +151,20 @@
       "Log": {
         "Commit": {
           "currentBranchBackground": "secondary",
-          "hoveredBackground": "inactiveSelection"
+          "hoveredBackground": "inactiveSelection",
+          "selectedBackground": "activeSelection"
         }
+      },
+      "GitLog": {
+        "headIconColor": "#FFFFFF",
+        "localBranchIconColor": "#BBBBBB",
+        "remoteBranchIconColor": "#888888",
+        "tagIconColor": "#AAAAAA",
+        "otherIconColor": "#666666"
+      },
+      "RefLabel": {
+        "backgroundBase": "#1c1c1c",
+        "foreground": "#FFFFFF"
       }
     },
     "WelcomeScreen": {
