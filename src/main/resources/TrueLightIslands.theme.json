@@ -2,7 +2,6 @@
   "name": "True Light Islands",
   "dark": false,
   "author": "Ahmed Elshaer",
-  "parentTheme": "Islands Light",
   "editorScheme": "/TrueLightIslands.xml",
   "colors": {
     "primary": "#F2F4FE",
