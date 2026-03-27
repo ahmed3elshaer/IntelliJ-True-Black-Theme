@@ -2,6 +2,7 @@
   "name": "True Light Islands",
   "dark": false,
   "author": "Ahmed Elshaer",
+  "parentTheme": "Islands Light",
   "editorScheme": "/TrueLightIslands.xml",
   "colors": {
     "primary": "#F2F4FE",
@@ -82,12 +83,19 @@
     },
     "Editor": {
       "shortcutForeground": "activeSelection",
-      "background": "secondary"
+      "background": "secondary",
+      "SearchField.borderColor": "borderColor",
+      "Tooltip.background": "#E0E6FA",
+      "Tooltip.borderColor": "borderColor"
     },
     "EditorTabs": {
       "underlinedTabBackground": "secondary",
       "background": "secondary",
-      "underlineHeight": 2
+      "underlineHeight": 2,
+      "tabArc": 8,
+      "underlineColor": "#404a66",
+      "selectedBackground": "activeSelection",
+      "hoverBackground": "inactiveSelection"
     },
     "Link": {
       "activeForeground": "#0c90f8",
@@ -146,7 +154,10 @@
       }
     },
     "Tree": {
-      "background": "primary"
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection",
+      "rowHeight": 22
     },
     "VersionControl": {
       "Log": {
@@ -235,6 +246,101 @@
     "StatusBar.Widget": {
       "hoverBackground": "#E0E6FA",
       "pressedBackground": "#C1CEFB"
+    },
+    "List": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection",
+      "hoverBackground": "inactiveSelection"
+    },
+    "TabbedPane": {
+      "background": "secondary",
+      "selectedBackground": "activeSelection",
+      "hoverColor": "inactiveSelection",
+      "underlineColor": "#404a66",
+      "foreground": "foreground"
+    },
+    "Popup": {
+      "background": "primary",
+      "Header.activeBackground": "activeSelection",
+      "Header.inactiveBackground": "inactiveSelection",
+      "separatorColor": "borderColor",
+      "borderColor": "borderColor",
+      "Advertiser": {
+        "background": "inactiveSelection",
+        "borderColor": "borderColor"
+      }
+    },
+    "ScrollBar": {
+      "background": "primary",
+      "Thumb": {
+        "background": "inactiveSelection",
+        "hoverBackground": "activeSelection",
+        "pressedBackground": "activeSelection"
+      },
+      "track": "primary"
+    },
+    "Menu": {
+      "background": "primary",
+      "foreground": "foreground",
+      "separatorColor": "borderColor",
+      "borderColor": "borderColor",
+      "selectionBackground": "activeSelection"
+    },
+    "MenuItem": {
+      "selectionBackground": "activeSelection"
+    },
+    "ProgressBar": {
+      "trackColor": "inactiveSelection",
+      "progressColor": "#404a66",
+      "indeterminateStartColor": "#404a66",
+      "indeterminateEndColor": "#C1CEFB"
+    },
+    "FileColor": {
+      "Yellow": "F2F4FE",
+      "Green": "F2F4FE",
+      "Blue": "F2F4FE",
+      "Violet": "F2F4FE",
+      "Orange": "F2F4FE",
+      "Rose": "F2F4FE"
+    },
+    "ProjectView": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection"
+    },
+    "Breadcrumbs": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "hoverBackground": "inactiveSelection",
+      "borderColor": "borderColor"
+    },
+    "InplaceRefactoringPopup": {
+      "background": "primary",
+      "borderColor": "borderColor"
+    },
+    "InternalFrameTitlePane": {
+      "background": "secondary",
+      "inactiveBackground": "primary"
+    },
+    "FormattedTextField": {
+      "background": "secondary"
+    },
+    "TextArea": {
+      "background": "secondary",
+      "selectionBackground": "activeSelection"
+    },
+    "TextPane": {
+      "background": "secondary",
+      "selectionBackground": "activeSelection"
+    },
+    "CheckBox": {
+      "background": "primary",
+      "foreground": "foreground"
+    },
+    "RadioButton": {
+      "background": "primary",
+      "foreground": "foreground"
     }
   }
 }

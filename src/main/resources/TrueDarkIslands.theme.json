@@ -2,6 +2,7 @@
   "name": "True Dark Islands",
   "dark": true,
   "author": "Ahmed Elshaer",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/TrueDarkIslands.xml",
   "colors": {
     "primary": "#121212",

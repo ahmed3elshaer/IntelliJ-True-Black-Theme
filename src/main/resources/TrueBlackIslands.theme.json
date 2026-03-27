@@ -2,6 +2,7 @@
   "name": "True Black Islands",
   "dark": true,
   "author": "Ahmed Elshaer",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/TrueBlackIslands.xml",
   "colors": {
     "primary": "#000000",
@@ -81,12 +82,19 @@
     },
     "Editor": {
       "shortcutForeground": "activeSelection",
-      "background": "secondary"
+      "background": "secondary",
+      "SearchField.borderColor": "borderColor",
+      "Tooltip.background": "inactiveSelection",
+      "Tooltip.borderColor": "borderColor"
     },
     "EditorTabs": {
       "underlinedTabBackground": "primary",
       "background": "secondary",
-      "underlineHeight": 2
+      "underlineHeight": 2,
+      "tabArc": 8,
+      "underlineColor": "#dfdfe0",
+      "selectedBackground": "activeSelection",
+      "hoverBackground": "inactiveSelection"
     },
     "Link": {
       "activeForeground": "#0c90f8",
@@ -145,7 +153,10 @@
       }
     },
     "Tree": {
-      "background": "primary"
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection",
+      "rowHeight": 22
     },
     "VersionControl": {
       "Log": {
@@ -166,11 +177,25 @@
         }
       }
     },
+    "List": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection",
+      "hoverBackground": "inactiveSelection"
+    },
+    "TabbedPane": {
+      "background": "secondary",
+      "selectedBackground": "activeSelection",
+      "hoverColor": "inactiveSelection",
+      "underlineColor": "#dfdfe0",
+      "foreground": "#dfdfe0"
+    },
     "Popup": {
       "background": "primary",
       "Header.activeBackground": "activeSelection",
       "Header.inactiveBackground": "inactiveSelection",
       "separatorColor": "borderColor",
+      "borderColor": "borderColor",
       "Advertiser": {
         "background": "inactiveSelection",
         "borderColor": "borderColor"
@@ -183,7 +208,13 @@
       "hoverThumbColor": "#505050",
       "hoverThumbBorderColor": "#505050",
       "Mac.thumbColor": "#353535",
-      "Mac.thumbBorderColor": "#353535"
+      "Mac.thumbBorderColor": "#353535",
+      "Thumb": {
+        "background": "inactiveSelection",
+        "hoverBackground": "activeSelection",
+        "pressedBackground": "activeSelection"
+      },
+      "track": "primary"
     },
     "ProgressBar": {
       "trackColor": "inactiveSelection",
@@ -298,6 +329,33 @@
     "StatusBar.Widget": {
       "hoverBackground": "#2A2A2A",
       "pressedBackground": "#353535"
+    },
+    "FileColor": {
+      "Yellow": "000000",
+      "Green": "000000",
+      "Blue": "000000",
+      "Violet": "000000",
+      "Orange": "000000",
+      "Rose": "000000"
+    },
+    "ProjectView": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "selectionInactiveBackground": "inactiveSelection"
+    },
+    "Breadcrumbs": {
+      "background": "primary",
+      "selectionBackground": "activeSelection",
+      "hoverBackground": "inactiveSelection",
+      "borderColor": "borderColor"
+    },
+    "InplaceRefactoringPopup": {
+      "background": "primary",
+      "borderColor": "borderColor"
+    },
+    "InternalFrameTitlePane": {
+      "background": "secondary",
+      "inactiveBackground": "primary"
     }
   }
 }
